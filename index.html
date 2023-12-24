@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Som X Chat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+
+        .chat-container {
+            max-width: 500px;
+            margin: 50px auto;
+        }
+
+        .chat-box {
+            background-color: #34495e;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .user-message {
+            background-color: #3498db;
+            color: #ecf0f1;
+        }
+
+        .other-message {
+            background-color: #2ecc71;
+            color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container chat-container" id="chatContainer">
+    <!-- Messages will be displayed here -->
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" id="messageInput" placeholder="Type your message...">
+    <div class="input-group-append">
+        <button class="btn btn-primary" onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="App.js"></script>
+
+</body>
+</html>
